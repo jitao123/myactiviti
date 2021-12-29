@@ -7,6 +7,6 @@ spring:
     username: root
     password: password
   activiti:
-    history-level: full
-    db-history-used: true
-    check-process-definitions: false
+    history-level: full # 历史记录等级 全部
+    db-history-used: true # 使用历史记录
+    check-process-definitions: false # 检查流程定义
